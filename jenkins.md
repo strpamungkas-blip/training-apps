@@ -116,7 +116,7 @@ http://localhost:8080
 
 5. Jalankan ulang Jenkins:
    ```bash
-   docker compose up -d
+   docker compose up -d agent
    ```
 
 6. Sekarang agent akan muncul **Connected** di Jenkins UI ✅
