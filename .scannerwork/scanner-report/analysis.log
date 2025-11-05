@@ -23,23 +23,17 @@ Global server settings:
   - sonar.forceAuthentication=true
 Project server settings:
 Project scanner properties:
-  - sonar.exclusions=coverage/**, node_modules/**, testing/**
   - sonar.host.url=http://localhost:9000
-  - sonar.javascript.lcov.reportPaths=coverage/lcov.info
   - sonar.login=******
-  - sonar.projectBaseDir=/mnt/d/training git mubin/app
+  - sonar.projectBaseDir=/mnt/d/training git mubin
   - sonar.projectKey=app1
-  - sonar.projectName=simple-apps
-  - sonar.projectVersion=1.0
   - sonar.scanner.apiBaseUrl=http://localhost:9000/api/v2
   - sonar.scanner.app=ScannerCLI
   - sonar.scanner.appVersion=7.3.0.5189
   - sonar.scanner.arch=x86_64
-  - sonar.scanner.bootstrapStartTime=1762251669796
+  - sonar.scanner.bootstrapStartTime=1762251469802
   - sonar.scanner.os=linux
   - sonar.scanner.wasEngineCacheHit=true
-  - sonar.sourceEncoding=UTF-8
   - sonar.sources=.
-  - sonar.tests=testing/
-  - sonar.working.directory=/mnt/d/training git mubin/app/.scannerwork
+  - sonar.working.directory=/mnt/d/training git mubin/.scannerwork
   - sonar.ws.timeout=60
